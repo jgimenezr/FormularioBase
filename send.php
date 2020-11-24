@@ -25,7 +25,7 @@
 	$comentarios .= "Comentario: ".$_POST['comentario'];
 
 	//Agregar destinatario
-	$mail->AddAddress("ivangarcete@gmail.com");
+	$mail->AddAddress("xymenez92@gmail.com");
 	$mail->Subject = utf8_decode("Datos Formulario Web Juan Jose Giménez");
 	$mail->Body = $comentarios;
 
